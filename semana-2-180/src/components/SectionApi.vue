@@ -16,7 +16,7 @@
             <h2>{{movie.Title}}</h2>
             <hr>
             <p>
-              El año de estreno de la pelicula {{movie.Title}} fue en  {{movie.Year}} 
+              El año de estreno de la pelicula {{movie.Title}} fue en  {{movie.Year}}
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default {
       .get("http://www.omdbapi.com/?s=harry+potter&type=movie&apikey=23daade9")
       .then((response) => {
         this.movies = response.data.Search.slice(0, 4);
-        console.log(response.data.Search);
+        // console.log(response.data.Search);
       });
       
   },
