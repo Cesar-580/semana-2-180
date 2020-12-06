@@ -27,7 +27,8 @@
              </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                     <img src="https://placeimg.com/1000/1000/arch" style="width:1900px;height:400px">
+                     <img src="@/assets/i1.jpg" style="width:1555px;height:400px">
+                     <!--  -->
                      <div class="carousel-caption d-none d-md-block">
                          <h5>Primera imagen</h5>
                          <p>Representación del cine.</p>
@@ -35,14 +36,14 @@
                  </div>
                      <div class="carousel-item">
                          
-                         <img src="https://placeimg.com/1000/1000/any" style="width:1900px;height:400px">
+                         <img src="@/assets/i2.jpg" style="height:400px" >
                          <div class="carousel-caption d-none d-md-block">
                              <h5>Segunda imagen</h5>
                              <p>Representación del cine2.</p>
                          </div>
                      </div>
                      <div class="carousel-item">
-                         <img src="https://placeimg.com/1000/1000/any/sepia" style="width:1900px;height:400px">
+                         <img src="@/assets/i3.jpg"  style="width:1555px;height:400px">
                          <div class="carousel-caption d-none d-md-block">
                              <h5>Tercera imagen</h5>
                              <p>Praesent commodo cursus magna, vel scelerisque nisl

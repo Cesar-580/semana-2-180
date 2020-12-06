@@ -64,7 +64,7 @@ export default {
           nombre: "Henry Guillen Ramírez",
           descripcion:
             "Director operativo en Hirai Denki Industria Electrónica S.A.S. Me gusta leer sobre tecnología, escuchar Jazz suave. Soy creyente cristiano.",
-          rol: "Desarrollador fronted",
+          rol: "Arquitecto de software",
           imagen: require("@/assets/hmt.jpg"),
         },
         {
@@ -80,7 +80,7 @@ export default {
           nombre: "Heberley Tobon",
           descripcion:
             "Mi nombre es Heberley Tobón, Me apasiona la transferencia tecnologica y el ajedrez. ",
-          rol: "Desarrollador de backend",
+          rol: "Tester",
           imagen: require("@/assets/heber.jpg"),
         },
         {
@@ -88,7 +88,7 @@ export default {
           nombre: "Jairo Arteaga",
           descripcion:
             "Me gusta aprender cada dia de los lenguajes de programción, y estoy muy feliz de estar en el curso",
-          rol: "Analista de pruebas",
+          rol: "Analista",
           imagen: require("@/assets/Jairo.jpg"),
         },
       ],

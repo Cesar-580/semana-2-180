@@ -16,12 +16,12 @@
             <h2>{{movie.Title}}</h2>
             <hr>
             <p>
-              El año de estreno de la pelicula {{movie.Title}} fue en  {{movie.Year}}
+              El año de estreno de la pelicula {{movie.Title}} fue en  {{movie.Year}} 
             </p>
           </div>
         </div>
         <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
-         <a :href="'https://www.imdb.com/title/'+ movie.imdbID" class="btn btn-outline-info" >info</a>
+         <a :href="'https://www.imdb.com/title/'+ movie.imdbID" class="btn btn-success" >View info</a>
         </div>
       </div>
     </div>
@@ -42,8 +42,9 @@ export default {
       .get("http://www.omdbapi.com/?s=harry+potter&type=movie&apikey=23daade9")
       .then((response) => {
         this.movies = response.data.Search.slice(0, 4);
-        console.log(response.data);
+        console.log(response.data.Search);
       });
+      
   },
 };
 </script>
