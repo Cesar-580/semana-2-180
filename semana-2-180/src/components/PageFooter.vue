@@ -12,7 +12,7 @@
                         segunda página web, realizada como ejercicio del ciclo 3
                         del curso de mintic 2022
                     </p>
-                    <p><a href="https://github.com/josejaviermu/semana-1-180" style="color:black">Nuestro Repositorio</a></p>
+                    <p><a href="https://github.com/Cesar-580/semana-2-180" style="color:black">Nuestro Repositorio</a></p>
                     </div>
                     <!-- Grid column -->
                     <hr class="clearfix w-100 d-md-none pb-3">
